@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+label, p {
+  font-weight: regular;
+  font-size: 1rem;
+}
+
+.palindrome {
+  color: green;
+  font-weight: bold;
+}
+
+.notPalindrome {
+  color: darkred;
+  font-weight: bold;
+}
+
+#checker-box, #def-box {
+  border: 0.125rem solid black;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: justify;
+  width: 25rem;
+}
+
+input {
+  margin: 1rem 0 0 0;
+  width: 19rem;
+}
+
+#checker-box {
+  background-color: #D9EDF8;
+}
+
+#def-box {
+  background-color: #DEDAF4;
+}
+
+body {
+  background-color: #eeeeee;
+}
+  
