@@ -14,11 +14,6 @@ function preprocessSearchInput(input) {
   return input.replace(/\W/g, "").toLowerCase().replace(/female/i, "-f").replace(/male/i, "-m").replace(/ /, "-");
 }
 
-function cleanScreen() {
-  pokemonId.textContent = "";
-  pokemonName.textContent = "";
-}
-
 async function fetchPokemon(rawInput) {
   const cleanInput = preprocessSearchInput(rawInput);
   if (cleanInput.length > 0) {
