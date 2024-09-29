@@ -1,0 +1,91 @@
+:root {
+    --neutral-phone-color: #dcd5c3;
+    --neutral-phone-border: #c1b595;
+    --neutral-phone-font-color: #716442;
+    --valid-phone-color: #4caf50;
+    --invalid-phone-color: #ff2400;
+    --background-color: #f1eee7;
+  }
+  
+  #telephone-body {
+    top: 1.5rem;
+    position: relative;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 3rem 3rem 0 0;
+    margin: 1rem auto;
+    border: 0.25rem solid var(--neutral-phone-border);
+  }
+  #telephone-body h1 {
+    bottom: 1.75rem;
+    left: 3.25rem;
+    font-size: 1.5rem;
+    color: var(--neutral-phone-font-color);
+  }
+  
+  #telephone-body input {
+    color: var(--neutral-phone-font-color);
+    background-color: var(--background-color);
+    border-color: var(--neutral-phone-border);
+    text-align: center;
+  }
+  
+  #telephone-microphone, #telephone-speaker, #check-btn, #clear-btn, #user-input, #results-div, #telephone-body h1 {
+    position: absolute;
+  }
+  
+  #telephone-microphone, #telephone-speaker {
+    width: 5rem;
+    height: 2.5rem;
+    border-bottom: 0.25rem solid var(--neutral-phone-border);
+    border-left: 0.25rem solid var(--neutral-phone-border);
+    border-right: 0.25rem solid var(--neutral-phone-border);
+  }
+  #telephone-microphone {
+    top: 2.5rem;
+    left: -0.25rem;
+  }
+  #telephone-speaker {
+    top: 2.5rem;
+    left: 19.75rem;
+  }
+  
+  #user-input {
+    top: 0.5rem;
+    left: 7rem
+  }
+  
+  #check-btn {
+    top: 3rem;
+    width: 5rem;
+  }
+  
+  #clear-btn {
+    top: 3rem;
+    width: 5rem;
+    left: 10rem;
+  }
+  
+  #results-div {
+    top: 1.75rem;
+    color: var(--neutral-phone-font-color);
+  }
+  
+  .neutral-phone {
+    background-color: var(--neutral-phone-color);
+  }
+  
+  .valid-phone {
+    background-color: var(--valid-phone-color);
+  }
+  
+  .invalid-phone {
+    background-color: var(--invalid-phone-color);
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  
+  
+  

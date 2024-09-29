@@ -1,0 +1,73 @@
+:root {
+  --display-background: #330000;
+  --display-input: #4d0000;
+  --display-font: red;
+  --title: black;
+  --display-border: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+  background-image: url("https://peakbusinessvaluation.com/wp-content/uploads/how-to-value-a-grocery-store-or-supermarket-scaled.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin: 1rem auto;
+  text-align: center;
+  color: var(--title);
+
+}
+
+#screen {
+  position: relative;
+  border-top: 0.75rem solid var(--display-border);
+  border-right: 0.75rem solid var(--display-border);
+  border-left: 0.75rem solid var(--display-border);
+  border-bottom: 2rem solid var(--display-border);
+  margin: 0 auto;
+  width: 20rem;
+  height: 15rem;
+  background-color: var(--display-background);
+  border-radius: 0.25rem;
+}
+
+#stick {
+  width: 2.5rem;
+  height: 70vh;
+  top: 13.5rem;
+  left: 7.5rem;
+  position: absolute;
+  background-color: var(--display-border);
+}
+
+button {
+  position: absolute;
+  top: 12.5rem;
+  left: 7rem;
+}
+
+label, p {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  color: var(--display-font);
+  font-weight: bold;
+}
+
+p {
+  z-index: 2;
+}
+
+input {
+  background-color: var(--display-input);
+  color: var(--display-font);
+}
+
